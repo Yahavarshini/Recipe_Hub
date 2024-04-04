@@ -1,0 +1,23 @@
+
+<!-- <router-outlet /> -->
+
+<div>
+  <div class="min-h-[91vh]">
+    <app-navbar />
+
+    @if(user){
+      <app-home />
+    }
+    @else{
+      <app-auth />
+    }
+    
+    
+  </div>
+
+  
+   
+ 
+  <app-footer />
+  
+</div>

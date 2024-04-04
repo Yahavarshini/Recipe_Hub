@@ -1,0 +1,14 @@
+<p>
+    <mat-toolbar class="flex item-center justify-between" color="primary">
+     <div>
+      <span>Recipe Sharing Hub</span>
+     </div>
+     <div>
+      <span class="example-spacer"></span>
+      <button mat-button (click)="handleLogout()"> 
+        {{user ? user.fullName : ''}}
+      </button>
+     </div>
+     
+    </mat-toolbar>
+  </p>

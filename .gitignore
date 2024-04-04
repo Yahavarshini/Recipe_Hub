@@ -1,0 +1,43 @@
+# Compiled output
+/dist/
+/node_modules/
+
+# Angular Material UI
+/material/
+
+# Tailwind CSS
+/src/styles.css
+/tailwind.config.js
+
+# Log files
+npm-debug.log*
+
+# Environment variables
+.env
+
+# IDE and editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency directories
+**/bower_components/
+**/jspm_packages/
+
+# Typescript configuration
+tsconfig.json
+typings.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled TypeScript files
+*.js
+*.js.map
+
+
